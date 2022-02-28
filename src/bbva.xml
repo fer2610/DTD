@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE liga [
+        <!ELEMENT liga (ligamx)*>
+        <!ELEMENT ligamx (partidos)*>
+        <!ELEMENT partidos (juego)*>
+        <!ELEMENT juego (fecha,equipos,resultado,estadisticas)*>
+        <!ELEMENT fecha (#PCDATA)>
+        <!ELEMENT equipos (#PCDATA)>
+        <!ELEMENT resultado (#PCDATA)>
+        <!ELEMENT estadisticas (equipo1|equipo2)*>
+        <!ELEMENT equipo1 (nombre,faltas,tarjetasamarillas,tarjetasrojas,fueradelugar,tirosdeesquina,salvadas)*>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT faltas (#PCDATA)>
+        <!ELEMENT tarjetasamarillas (#PCDATA)>
+        <!ELEMENT tarjetasrojas (#PCDATA)>
+        <!ELEMENT fueradelugar (#PCDATA)>
+        <!ELEMENT tirosdeesquina (#PCDATA)>
+        <!ELEMENT salvadas (#PCDATA)>
+        <!ELEMENT equipo2 (nombre,faltas,tarjetasamarillas,tarjetasrojas,fueradelugar,tirosdeesquina,salvadas)*>
+        ]>
+<liga>
+    <ligamx>
+        <partidos>
+            <juego>
+                <fecha>2022-02-26</fecha>
+                <equipos>America vs Pumas</equipos>
+                <resultado> 0-0 </resultado>
+                <estadisticas>
+                    <equipo1>
+                        <nombre>America</nombre>
+                        <faltas>12</faltas>
+                        <tarjetasamarillas>1</tarjetasamarillas>
+                        <tarjetasrojas>0</tarjetasrojas>
+                        <fueradelugar>4</fueradelugar>
+                        <tirosdeesquina>5</tirosdeesquina>
+                        <salvadas>2</salvadas>
+                    </equipo1>
+                    <equipo2>
+                        <nombre>Pumas</nombre>
+                        <faltas>15</faltas>
+                        <tarjetasamarillas>0</tarjetasamarillas>
+                        <tarjetasrojas>1</tarjetasrojas>
+                        <fueradelugar>7</fueradelugar>
+                        <tirosdeesquina>5</tirosdeesquina>
+                        <salvadas>2</salvadas>
+                    </equipo2>
+                </estadisticas>
+            </juego>
+            <juego>
+                <fecha>2022-02-26</fecha>
+                <equipos>Puebla vs Guadalajara</equipos>
+                <resultado> 3-2 </resultado>
+                <estadisticas>
+                    <equipo1>
+                        <nombre>Puebla</nombre>
+                        <faltas>15</faltas>
+                        <tarjetasamarillas>1</tarjetasamarillas>
+                        <tarjetasrojas>0</tarjetasrojas>
+                        <fueradelugar>2</fueradelugar>
+                        <tirosdeesquina>5</tirosdeesquina>
+                        <salvadas>4</salvadas>
+                    </equipo1>
+                    <equipo2>
+                        <nombre>Guadalajara</nombre>
+                        <faltas>7</faltas>
+                        <tarjetasamarillas>4</tarjetasamarillas>
+                        <tarjetasrojas>1</tarjetasrojas>
+                        <fueradelugar>3</fueradelugar>
+                        <tirosdeesquina>3</tirosdeesquina>
+                        <salvadas>2</salvadas>
+                    </equipo2>
+                </estadisticas>
+            </juego>
+            <juego>
+                <fecha>2022-02-26</fecha>
+                <equipos>Atletico San Luis vs Monterrey</equipos>
+                <resultado> 2-0 </resultado>
+                <estadisticas>
+                    <equipo1>
+                        <nombre>Atletico San Luis</nombre>
+                        <faltas>14</faltas>
+                        <tarjetasamarillas>1</tarjetasamarillas>
+                        <tarjetasrojas>0</tarjetasrojas>
+                        <fueradelugar>4</fueradelugar>
+                        <tirosdeesquina>2</tirosdeesquina>
+                        <salvadas>4</salvadas>
+                    </equipo1>
+                    <equipo2>
+                        <nombre>Monterrey</nombre>
+                        <faltas>17</faltas>
+                        <tarjetasamarillas>3</tarjetasamarillas>
+                        <tarjetasrojas>0</tarjetasrojas>
+                        <fueradelugar>2</fueradelugar>
+                        <tirosdeesquina>11</tirosdeesquina>
+                        <salvadas>2</salvadas>
+                    </equipo2>
+                </estadisticas>
+            </juego>
+        </partidos>
+    </ligamx>
+</liga>
